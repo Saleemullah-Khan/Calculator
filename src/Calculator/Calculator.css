@@ -1,0 +1,82 @@
+
+/* Heading Style */
+.tracking-in-contract-bck {
+  -webkit-animation: tracking-in-contract-bck 1s
+    cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
+}
+
+@-webkit-keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+body{
+ background-color: lemonchiffon;
+}
+/* calculaor box style */
+.calculaor {
+  width: 320px;
+  margin: 100px auto;
+}
+
+/* All Result button are adjusting And Styles for good looking */
+#answer {
+  padding: 15px;
+  background-color: #333;
+  color: #cecece;
+  font-size: 45px;
+  width: 282px;
+  height: 46px;
+  text-align: right;
+  border: 4px solid #457c46;
+}
+
+
+/* All button are adjusting to Styles for good looking */
+.button {
+  background: #333;
+  height: 60px;
+  width: 106px;
+  color: #cecece;
+  font-size: 35px;
+  border: 1px solid #3c6f34;
+  float: center;
+  PADDING: 15PX;
+  border: 1px solid #3b763c;
+}
+
+
+/* Resut button are adjusting the width */
+#button1 {
+  width: 159px;
+  border: 1px solid #366637;
+}
